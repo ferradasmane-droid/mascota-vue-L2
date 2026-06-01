@@ -34,20 +34,14 @@
   </main>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      mascota: {
-        nombre: 'Yack',
-        tipo: 'Perro',
-        edad: 11,
-        vacunado: true,
-        foto: '/img/perro.jpg',
-        caracteristicas: ['Inteligente', 'Protector', 'Juguetón']
-      }
-    }
-  }
+<script setup>
+const mascota = {
+  nombre: 'Yack',
+  tipo: 'Perro',
+  edad: 11,
+  vacunado: true,
+  foto: '/img/perro.jpg',
+  caracteristicas: ['Inteligente', 'Protector', 'Juguetón']
 }
 </script>
 
